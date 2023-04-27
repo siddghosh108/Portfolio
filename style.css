@@ -4,11 +4,11 @@ body {
   background-image: url("./images/background.jpg");
 }
 
-body h1{
+body h1 {
   font-size: 50px;
 }
 
-body a{
+body a {
   text-decoration: none;
   font-weight: bold;
   color: cornflowerblue;
@@ -59,7 +59,6 @@ body a{
 
 #myLinks a {
   color: white;
-  
   text-decoration: none;
   display: block;
   font-size: 17px;
@@ -82,7 +81,3 @@ footer {
   padding: 20px;
   color: white;
 }
-
-
-
-
