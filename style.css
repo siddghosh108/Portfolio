@@ -100,7 +100,12 @@ body a {
 .content {
   padding: 16px;
 }
-
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 .content p {
   font-weight: 400;
   font-size: 16px;

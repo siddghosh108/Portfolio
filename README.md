@@ -167,6 +167,6 @@ major thanks to microverse and it's code reviewers.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./mit.md) licensed.
+This project is [MIT](https://github.com/siddghosh108/Portfolio/blob/feature/mit.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
