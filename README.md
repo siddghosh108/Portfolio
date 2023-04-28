@@ -90,7 +90,7 @@ It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CS
 Install this project with:
 
 - Open your command prompt or terminal and run.
--  git clone https://github.com/siddghosh108/Portfolio.git
+-  git clone -b feature https://github.com/siddghosh108/Portfolio.git
 cd -Portfolio-
 
 ### Usage
@@ -108,7 +108,7 @@ To run tests, run the following command:
 ### Deployment
 
 - Project is deployed using [GitHub Pages](https://pages.github.com/)
-- [🚀 Live Demo Link Provided Above ⬆️](#live-demo)
+- [🚀 Live Demo Coming Soon!]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,8 +144,6 @@ To run tests, run the following command:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,49 +1,80 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <title>About Me</title>
   </head>
   <body>
     <div class="mobile-container">
       <nav class="topnav">
-        <a href="#home"><img src="./images/logo.png" alt="Home"></a>
+        <a href="#home" class="header-title">My Logo</a>
         <div id="myLinks">
           <a href="#contact">Contact</a>
           <a href="#about">About</a>
         </div>
-        <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
-			<img src="./images/hamburger.png" alt="Menu icon">
-        </a>
+        
+          <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+            <!--<img src="./images/hamburger1.png" alt="Menu icon">-->
+            <nav>
+              <ul class="hamburger">
+                <li class="stroke"></li>
+                <li class="stroke"></li>
+                <li class="stroke"></li>
+              </ul>
+            </nav>
+          </a>
+        
       </nav>
-
-      <div class="content">
-        <h1>I am Siddhartha Glad to see you!</h1>
-        <p>I am a software developer!. I can help you build a product, feature or website.
-			 Look through some of my work and experience! 
-			 If you like what you see and have a project you need coded, dont hesitate to contact me.</p>
-        <p></p>
-		<p><a href="#">LET'S CONNECT</a></p>
-      </div>
+      <section>
+        <div class="content">
+          <h1>I am Siddhartha Glad to see you!</h1>
+          <p>I am a software developer!. I can help you build a product, feature or website.
+         Look through some of my work and experience! 
+         If you like what you see and have a project you need coded, dont hesitate to contact me.</p>
+          <p><a href="#">LET'S CONNECT</a></p>
+        </div>
+      </section>
     </div>
 	<footer>
-		<div class="footer-container">
-		  <div class="social-media">
-			<a href="#">
-				<img src="./images/facebook.png" alt="Facebook">
-			  </a>
-			  <a href="#">
-				<img src="./images/linkedin.png" alt="LinkedIn">
-			  </a>
-			  <a href="#">
-				<img src="./images/twitter.png" alt="Twitter">
-			  </a>
-			  <a href="#">
-				<img src="./images/instagram.png" alt="Instagram">
-			  </a>
+		  <div class="image-container ul">
+        <ul>
+          <ui>
+            <a href="#">
+              <img src="./images/facebook.png" alt="Facebook">
+            </a>
+          </ui>
+        </ul>
+        <ul>
+          <ui>
+            <a href="#">
+              <img src="./images/linkedin.png" alt="LinkedIn">
+            </a>
+          </ui>
+        </ul>
+			  <ul>
+          <ui>
+            <a href="#">
+              <img src="/images/twitter.png" alt="Twitter">
+            </a>
+          </ui>
+        </ul>
+			  <ul>
+          <ui>
+            <a href="#">
+              <img src="./images/instagram.png" alt="Instagram">
+            </a>
+          </ui>
+        </ul>
 		  </div>
-		</div>
 	</footer>
     <script src="script.js"></script>
   </body>
