@@ -465,15 +465,16 @@ hr.new1 {
 }
 
 .footer-container {
-  height: auto;
+  height: 100%;
   width: 100%;
   background: #6070ff;
-  background-image: url("../Assets/contact\ form\ shapes-mobile.svg");
+  background-image: url("images/contact_form.png");
   background-repeat: no-repeat;
-  background-size: 480px 735px;
+  background-size: cover;
   border-top-left-radius: 100px;
   padding-top: 30px;
 }
+
 
 .footer-info {
   width: 90%;
@@ -558,7 +559,7 @@ hr.new1 {
   background: #fff;
   border-radius: 8px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
@@ -578,7 +579,7 @@ hr.new1 {
 
 .btn-center {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .user-name,
